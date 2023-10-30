@@ -43,8 +43,8 @@
                         <h6>Cancellato:</h6>
                         {!! $treno->cancellato ? 'No <i class="fa-solid fa-face-grin-stars" style="color: #d5f00a;"></i>' : 'Si <i class="fa-solid fa-heart-crack" style="color: #eb0000;"></i>' !!}
                        
+                    </div>
                 @endforeach
-            </div>
 
         </div>
     </div>
